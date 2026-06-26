@@ -828,7 +828,7 @@
         <section class="hero" id="hero">
           <p class="hero-eyebrow">✦ A Gift For You ✦</p>
           <h1 class="hero-headline">Happy Birthday,<br>Maya 🎂</h1>
-          <p class="hero-subtitle">Today the whole universe celebrates you, my love. This little corner of the internet is yours — made with every heartbeat of mine. 💖</p>
+          <p class="hero-subtitle">Today the whole universe celebrates you. I made this little gift from the bottom of my heart — because someone as wonderful as you deserves to feel treasured. 💖</p>
           <div class="pulsing-heart">💖</div>
           <p class="scroll-hint">↓ scroll to open your card ↓</p>
         </section>
@@ -836,8 +836,8 @@
         <div class="ornament">· ✦ · ❋ · ✦ ·</div>
 
         <section class="gallery" id="gallery">
-          <h2 class="section-title">Our Beautiful Memories</h2>
-          <p class="section-subtitle">Every moment with you is a treasure I keep close to my heart ✨</p>
+          <h2 class="section-title">Moments I Hold Close</h2>
+          <p class="section-subtitle">These memories mean more to me than words can say ✨</p>
           <div class="photo-grid" id="photoGrid"></div>
         </section>
 
@@ -848,12 +848,13 @@
           <p class="section-subtitle">A letter I wrote just for you 💌</p>
           <div class="glass-card wishes-card">
             <p class="salutation">My dearest Maya,</p>
-            <p>On this magical day, I want you to know that you are the most extraordinary person I have ever had the joy of knowing. Your smile lights up every room, your laughter is my favorite song, and your love is the greatest gift life has ever given me.</p>
-            <p>Every single day with you is an adventure, a blessing, and a dream I never want to wake up from. You make ordinary moments feel like magic, and extraordinary moments feel like forever.</p>
-            <p>On your birthday, I wish you all the happiness your heart can hold, all the love you so generously give to others, and every dream you've ever whispered to the stars.</p>
-            <p>You deserve the entire universe, Maya — and I will spend every day trying to give it to you.</p>
-            <p>Happy Birthday, my love. Today and always, you are my everything. 🌹</p>
-            <p class="signature">Forever yours,<br>Kushal 💕</p>
+            <p>On this magical day, I want you to know that you are the most extraordinary person I have ever had the joy of knowing. Your smile lights up every room, your laughter is my favorite song, and knowing you has been one of the greatest gifts life has ever given me.</p>
+            <p>We may not be together yet — but I carry you in my thoughts more than you know. Every moment I spend with you feels like magic, and I find myself dreaming about all the adventures still waiting for us.</p>
+            <p>On your 23rd birthday, I wish you all the happiness your heart can hold, all the love you so generously give to others, and every dream you've ever whispered to the stars.</p>
+            <p>You deserve the entire universe, Maya — and I hope I get to spend my life trying to give it to you.</p>
+            <p>I hope that by your next birthday, we'll be celebrating together — truly together. Until then, know that you are thought of, admired, and cherished.</p>
+            <p>Happy 23rd Birthday. Today and always, you are someone very special to me. 🌹</p>
+            <p class="signature">With all my heart,<br>Kushal 💕</p>
             <div class="decorative-divider">🌹 ♥ 🌹 ♥ 🌹</div>
             <p class="today-date" id="todayDate"></p>
           </div>
@@ -911,7 +912,7 @@
     (function () {
       'use strict';
 
-      const MAYA_BIRTHDAY = '2000-06-26';
+      const MAYA_BIRTHDAY = '2003-06-26';
       const RECIPIENT_PHONE = '+61405290710';
       const SENDER_NAME = 'Kushal';
 
@@ -920,12 +921,12 @@
       const CONFETTI_SHAPES = ['♥', '●', '■', '▲', '★'];
 
       const PRELOADED_PHOTOS = [
-        { src: '16A5284B-E868-4F11-A7E3-95D74813C8FA.PNG', caption: 'Right where I belong — beside you 💕' },
-        { src: 'IMG_20191116_155216.jpg', caption: 'Our waterfall adventure 🌊' },
-        { src: 'IMG_20191116_162931.jpg', caption: "I'll always be there to hold your hand 💗" },
+        { src: '16A5284B-E868-4F11-A7E3-95D74813C8FA.PNG', caption: 'One day, I hope to be right beside you 💕' },
+        { src: 'IMG_20191116_155216.jpg', caption: 'A moment I still think about 🌊' },
+        { src: 'IMG_20191116_162931.jpg', caption: 'I hope one day I get to hold your hand 💗' },
         { src: 'att.sbTKXOCsHt_tuV4SEjNYJqBJ8jJpBiBFOBiR5kdwNAY.JPG', caption: 'That smile that melts my heart 😘' },
-        { src: 'IMG_20191111_103139.jpg', caption: 'Looking up at our future together ✨' },
-        { src: 'IMG_20191116_161754.jpg', caption: "Waterfall moments I'll never forget 💧" }
+        { src: 'IMG_20191111_103139.jpg', caption: 'Dreaming of a future together ✨' },
+        { src: 'IMG_20191116_161754.jpg', caption: 'A moment I hope we get to relive one day 💧' }
       ];
 
       /* ── Gift opening ── */
@@ -1127,8 +1128,8 @@
           : 'You Are ' + age + '! 🎂';
 
         document.getElementById('celebrationSub').textContent = isToday
-          ? 'Today is YOUR day, Maya — the whole world should celebrate you!'
-          : 'Every day with you feels like a celebration, but today is extra special.';
+          ? 'Today you turn 23 — and I already can\'t wait to celebrate your 24th with you, together. 🌹'
+          : 'Every day with you in my life feels like a gift — and I hope next year we celebrate side by side.';
 
         document.getElementById('statAge').textContent = age;
         document.getElementById('statDays').textContent = days.toLocaleString();
